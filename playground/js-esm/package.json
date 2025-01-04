@@ -1,0 +1,11 @@
+{
+  "name": "js-esm-sample",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node main.mjs && npx template-citty-unbuild AAA"
+  },
+  "dependencies": {
+    "template-citty-unbuild": "file:../../"
+  }
+}

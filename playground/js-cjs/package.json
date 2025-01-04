@@ -1,0 +1,11 @@
+{
+  "name": "js-cjs-sample",
+  "version": "0.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node main.cjs && npx template-citty-unbuild AAA"
+  },
+  "dependencies": {
+    "template-citty-unbuild": "file:../../"
+  }
+}
